@@ -9,7 +9,7 @@ namespace Students
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Перелiк команд:\nдодати нову групу: add_group\nдодати студента до групи:add_student\nотримати iнформацiю про факультет:get_info");
+            Console.WriteLine("Перелiк команд:\nдодати нову групу: add_group\nдодати студента до групи:add_student\nотримати iнформацiю про факультет:get_info\nвийти з програми:end");
 
             Faculty faculty = new Faculty(); // класс факультет для більш простої роботи з набором груп
 
